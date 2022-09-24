@@ -1,0 +1,17 @@
+{
+  "name": "UNO卡牌",
+  "id": "1141614917448671828",
+  "api": "1.0.0",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "permissions": [
+    "activeusers",
+    "currentuser"
+  ],
+  "containsWidget": true,
+  "main": "dist/code.js",
+  "ui": "dist/index.html",
+  "widgetApi": "1.0.0"
+}
