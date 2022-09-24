@@ -1,0 +1,1 @@
+type Button = { name: string; handler: () => void };

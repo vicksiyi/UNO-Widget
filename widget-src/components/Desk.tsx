@@ -1,5 +1,5 @@
 const { widget } = figma
-const { Frame, Image } = widget
+const { Frame } = widget
 
 // 台桌填充色
 const DeskFills: WidgetJSX.GradientPaint[] = [
@@ -116,20 +116,6 @@ const DeskStroke: WidgetJSX.GradientPaint = {
     ],
 }
 
-// 转盘Component
-const CardOrder = () => {
-    return (
-        <Image
-            name="转盘"
-            x={256}
-            y={128}
-            width={512}
-            height={512}
-            src="https://img.js.design/assets/img/632eb602a6d6d1e44a31491b.png#4928595bd03813d1a4d5a07f01251e7a"
-        />
-    )
-}
-
 const Desk = ({ children }: HasChildrenProps) => {
     return (
         <Frame
@@ -142,7 +128,6 @@ const Desk = ({ children }: HasChildrenProps) => {
             strokeWidth={10}
         >
             {children}
-            {CardOrder()}
         </Frame>
     )
 }
